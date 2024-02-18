@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "opentally"
+version = "0.1.0"
+description = ""
+authors = ["Jaden Evanger <cyberblaststudios@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+PyATEMMax = "^1.0b9"
+flask = {extras = ["async"], version = "^3.0.2"}
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
